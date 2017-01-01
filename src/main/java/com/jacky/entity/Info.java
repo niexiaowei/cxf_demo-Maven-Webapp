@@ -18,5 +18,10 @@ public class Info {
     public void setAge(int age)  
     {  
         this.age = age;  
-    }  
+    }
+	@Override
+	public String toString() {
+		return "Info [name=" + name + ", age=" + age + "]";
+	}  
+    
 }
